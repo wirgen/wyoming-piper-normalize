@@ -1,0 +1,42 @@
+[project]
+name = "wyoming-piper-normalize"
+version = "1.0.0"
+description = "Wyoming server for Piper TTS with Russian text normalization"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Dzianis Nikifaraŭ", email = "dzianis@wirgen.by" }
+]
+keywords = ["rhasspy", "wyoming", "piper", "tts", "russian", "normalization"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: Linguistic",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "wyoming",
+    "runorm",
+    "hf-xet",
+    "piper-tts==1.3.0",
+    "sentence-stream",
+]
+
+[project.urls]
+Homepage = "https://github.com/wirgen/wyoming-piper-normalize"
+
+[project.scripts]
+wyoming-piper-normalize = "wyoming_piper_normalize.__main__:run"
+
+[tool.setuptools.packages.find]
+include = ["wyoming_piper_normalize"]
+
+[tool.setuptools.package-data]
+wyoming_piper_normalize = ["voices.json"]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"

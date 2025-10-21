@@ -1,0 +1,62 @@
+{
+  "ru_RU-denis-medium": {
+    "key": "ru_RU-denis-medium",
+    "name": "denis",
+    "language": {
+      "code": "ru_RU",
+      "family": "ru",
+      "region": "RU",
+      "name_native": "Русский",
+      "name_english": "Russian",
+      "country_english": "Russia"
+    },
+    "quality": "medium",
+    "num_speakers": 1,
+    "speaker_id_map": {}
+  },
+  "ru_RU-dmitri-medium": {
+    "key": "ru_RU-dmitri-medium",
+    "name": "dmitri",
+    "language": {
+      "code": "ru_RU",
+      "family": "ru",
+      "region": "RU",
+      "name_native": "Русский",
+      "name_english": "Russian",
+      "country_english": "Russia"
+    },
+    "quality": "medium",
+    "num_speakers": 1,
+    "speaker_id_map": {}
+  },
+  "ru_RU-irina-medium": {
+    "key": "ru_RU-irina-medium",
+    "name": "irina",
+    "language": {
+      "code": "ru_RU",
+      "family": "ru",
+      "region": "RU",
+      "name_native": "Русский",
+      "name_english": "Russian",
+      "country_english": "Russia"
+    },
+    "quality": "medium",
+    "num_speakers": 1,
+    "speaker_id_map": {}
+  },
+  "ru_RU-ruslan-medium": {
+    "key": "ru_RU-ruslan-medium",
+    "name": "ruslan",
+    "language": {
+      "code": "ru_RU",
+      "family": "ru",
+      "region": "RU",
+      "name_native": "Русский",
+      "name_english": "Russian",
+      "country_english": "Russia"
+    },
+    "quality": "medium",
+    "num_speakers": 1,
+    "speaker_id_map": {}
+  }
+}
